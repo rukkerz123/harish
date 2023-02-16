@@ -1,0 +1,38 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="list" />
+          <option value="all" />
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="chellange.Month.*" />
+          <option value="inmakes.travelproject.travelproject.urls.travelproject" />
+          <option value="travelproject.settings" />
+          <option value="django.contrib.auth.models.User.*" />
+          <option value="django.contrib.auth.models.User.object" />
+          <option value="travelproject.max.views.message" />
+          <option value="django.contrib.auth.*" />
+          <option value="moviepoject.moviepoject.urls.include" />
+          <option value="moviepoject.movieapp.models.Movie.object" />
+          <option value="moviepoject.movieapp.models.Movie.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
